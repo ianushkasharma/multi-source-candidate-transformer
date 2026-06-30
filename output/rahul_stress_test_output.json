@@ -1,0 +1,480 @@
+[
+  {
+    "candidate_id": "csv-6f9b5a0c2acf",
+    "full_name": "Priya Nair",
+    "emails": [
+      "priya.nair@example.com"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "location": {
+      "name": "Bengaluru",
+      "region": "KA",
+      "country": "IN"
+    },
+    "links": {
+      "other": [],
+      "github": "github.com/priyanair",
+      "linkedin": "linkedin.com/in/priyanair"
+    },
+    "headline": "Senior Software Engineer at TechCorp India",
+    "years_experience": 5.0,
+    "skills": [],
+    "experience": [
+      {
+        "company": "TechCorp India",
+        "title": "Senior Software Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "links.github",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "derived"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      }
+    ],
+    "overall_confidence": 0.777
+  },
+  {
+    "candidate_id": "csv-cd37785da16a",
+    "full_name": "Arjun Mehta",
+    "emails": [
+      "arjun.mehta@example.com"
+    ],
+    "phones": [
+      "+19123456789"
+    ],
+    "location": {
+      "name": "Mumbai",
+      "region": "MH",
+      "country": "IN"
+    },
+    "links": {
+      "other": [],
+      "linkedin": "linkedin.com/in/arjunmehta"
+    },
+    "headline": "ML Engineer at DataWave",
+    "years_experience": 3.0,
+    "skills": [],
+    "experience": [
+      {
+        "company": "DataWave",
+        "title": "ML Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "derived"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      }
+    ],
+    "overall_confidence": 0.777
+  },
+  {
+    "candidate_id": "csv-2fe65a9d1e13",
+    "full_name": "Ghostexample.Com",
+    "emails": [
+      "ghost@example.com"
+    ],
+    "phones": [],
+    "location": null,
+    "links": {
+      "other": []
+    },
+    "headline": "Engineer at GhostCorp",
+    "years_experience": null,
+    "skills": [],
+    "experience": [
+      {
+        "company": "GhostCorp",
+        "title": "Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "derived"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      }
+    ],
+    "overall_confidence": 0.666
+  },
+  {
+    "candidate_id": "resume-5ef3b5d1e174",
+    "full_name": "Rahul Verma",
+    "emails": [
+      "rahul.verma99@gmail.com"
+    ],
+    "phones": [
+      "+919123456780"
+    ],
+    "location": null,
+    "links": {
+      "other": [],
+      "linkedin": "https://linkedin.com/in/rahulverma99"
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "Go",
+        "confidence": 0.8,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "Java",
+        "confidence": 0.8,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.8,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 0.8,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "AWS",
+        "confidence": 0.8,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "GCP",
+        "confidence": 0.8,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.8,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "Redis",
+        "confidence": 0.8,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "Kafka",
+        "confidence": 0.8,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Razorpay",
+        "title": "Software Engineer II",
+        "start": "2024-07",
+        "end": null,
+        "summary": "- Built payment reconciliation services handling 2M+ transactions/day - Migrated legacy Java monolith to Go microservices"
+      },
+      {
+        "company": "Razorpay",
+        "title": "Software Engineer I",
+        "start": "2023-01",
+        "end": "2024-06",
+        "summary": "- Implemented fraud detection rules engine in Python - Reduced false positive rate by 18%"
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "M.Tech",
+        "field": "Computer Science",
+        "end_year": "2024"
+      },
+      {
+        "institution": "Pune University",
+        "degree": "B.E. Computer Engineering",
+        "field": null,
+        "end_year": "2022"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "phones",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "full_name",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "regex_heuristic"
+      }
+    ],
+    "overall_confidence": 0.717
+  },
+  {
+    "candidate_id": "csv-c759332df281",
+    "full_name": "Sara Chen",
+    "emails": [
+      "sara.chen@example.com"
+    ],
+    "phones": [
+      "+14155550100"
+    ],
+    "location": {
+      "name": "San Francisco",
+      "region": "CA",
+      "country": "US"
+    },
+    "links": {
+      "other": [],
+      "github": "github.com/sarachen",
+      "linkedin": "linkedin.com/in/sarachen"
+    },
+    "headline": "Research Scientist at OpenAI",
+    "years_experience": 7.0,
+    "skills": [],
+    "experience": [
+      {
+        "company": "OpenAI",
+        "title": "Research Scientist",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "links.github",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "derived"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      }
+    ],
+    "overall_confidence": 0.777
+  },
+  {
+    "candidate_id": "csv-da39a3ee5e6b",
+    "full_name": null,
+    "emails": [],
+    "phones": [
+      "+10000000000"
+    ],
+    "location": null,
+    "links": {
+      "other": []
+    },
+    "headline": "No Name at BrokenCo",
+    "years_experience": null,
+    "skills": [],
+    "experience": [
+      {
+        "company": "BrokenCo",
+        "title": "No Name",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "derived"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      }
+    ],
+    "overall_confidence": 0.632
+  }
+]

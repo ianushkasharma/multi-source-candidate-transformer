@@ -1,0 +1,140 @@
+[
+  {
+    "full_name": "Sara Chen",
+    "primary_email": "sara.chen@example.com",
+    "phone": "+14155550100",
+    "skills": null,
+    "headline": "Research Scientist at OpenAI",
+    "years_experience": 7.0,
+    "location": "San Francisco",
+    "overall_confidence": 0.777,
+    "_field_confidence": {
+      "full_name": 0.8,
+      "emails": 0.9,
+      "phones": 0.9,
+      "location": 0.8,
+      "headline": 0.8,
+      "years_experience": 0.8,
+      "skills": 0.5,
+      "experience": 0.99,
+      "education": 0.5
+    }
+  },
+  {
+    "full_name": "Arjun Mehta",
+    "primary_email": "arjun.mehta@example.com",
+    "phone": "+19123456789",
+    "skills": null,
+    "headline": "ML Engineer at DataWave",
+    "years_experience": 3.0,
+    "location": "Mumbai",
+    "overall_confidence": 0.777,
+    "_field_confidence": {
+      "full_name": 0.8,
+      "emails": 0.9,
+      "phones": 0.9,
+      "location": 0.8,
+      "headline": 0.8,
+      "years_experience": 0.8,
+      "skills": 0.5,
+      "experience": 0.99,
+      "education": 0.5
+    }
+  },
+  {
+    "full_name": "Ghostexample.Com",
+    "primary_email": "ghost@example.com",
+    "phone": null,
+    "skills": null,
+    "headline": "Engineer at GhostCorp",
+    "years_experience": null,
+    "location": null,
+    "overall_confidence": 0.666,
+    "_field_confidence": {
+      "full_name": 0.8,
+      "emails": 0.9,
+      "phones": 0.5,
+      "location": 0.5,
+      "headline": 0.8,
+      "years_experience": 0.5,
+      "skills": 0.5,
+      "experience": 0.99,
+      "education": 0.5
+    }
+  },
+  {
+    "full_name": "Priya Nair",
+    "primary_email": "priya.nair@example.com",
+    "phone": "+919876543210",
+    "skills": [
+      "CI/CD",
+      "Python",
+      "Java",
+      "Go",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "GCP",
+      "FastAPI",
+      "Django",
+      "React",
+      "Machine Learning",
+      "TensorFlow",
+      "PyTorch",
+      "Pandas",
+      "NumPy",
+      "Git",
+      "REST API",
+      "Agile"
+    ],
+    "headline": "Senior Software Engineer with 5+ years of experience building scalable backend systems and ML pipelines. Passionate about distributed systems and",
+    "years_experience": 5.0,
+    "location": "Bengaluru",
+    "overall_confidence": 0.949,
+    "_field_confidence": {
+      "full_name": 0.99,
+      "emails": 0.99,
+      "phones": 0.99,
+      "location": 0.8,
+      "headline": 0.99,
+      "years_experience": 0.99,
+      "skills": 0.9,
+      "experience": 0.99,
+      "education": 0.9
+    }
+  },
+  {
+    "full_name": null,
+    "primary_email": null,
+    "phone": "+10000000000",
+    "skills": null,
+    "headline": "No Name at BrokenCo",
+    "years_experience": null,
+    "location": null,
+    "_missing_required": [
+      "full_name",
+      "primary_email"
+    ],
+    "overall_confidence": 0.632,
+    "_field_confidence": {
+      "full_name": 0.5,
+      "emails": 0.5,
+      "phones": 0.9,
+      "location": 0.5,
+      "headline": 0.8,
+      "years_experience": 0.5,
+      "skills": 0.5,
+      "experience": 0.99,
+      "education": 0.5
+    },
+    "_validation_errors": [
+      "Required field 'full_name' is missing or null.",
+      "Required field 'primary_email' is missing or null.",
+      "Required config field 'full_name' resolved to null.",
+      "Required config field 'primary_email' resolved to null."
+    ]
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "full_name": "Priya Nair",
+    "primary_email": "priya.nair@example.com",
+    "github": "github.com/priyanair",
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "links.github",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "derived"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "emails",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "phones",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "full_name",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "links.github",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "headline",
+        "source": "resume",
+        "method": "section_extraction"
+      },
+      {
+        "field": "years_experience",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "regex_heuristic"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "regex_heuristic"
+      }
+    ]
+  },
+  {
+    "full_name": "Sara Chen",
+    "primary_email": "sara.chen@example.com",
+    "github": "github.com/sarachen",
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "links.github",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "derived"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      }
+    ]
+  },
+  {
+    "full_name": "Arjun Mehta",
+    "primary_email": "arjun.mehta@example.com",
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "derived"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      }
+    ]
+  },
+  {
+    "full_name": "Ghostexample.Com",
+    "primary_email": "ghost@example.com",
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "derived"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      }
+    ]
+  },
+  {
+    "_missing_required": [
+      "full_name",
+      "primary_email"
+    ],
+    "provenance": [
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "derived"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_mapping"
+      }
+    ],
+    "_validation_errors": [
+      "Required field 'full_name' is missing or null.",
+      "Required field 'primary_email' is missing or null.",
+      "Required config field 'full_name' resolved to null.",
+      "Required config field 'primary_email' resolved to null."
+    ]
+  }
+]

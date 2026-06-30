@@ -1,0 +1,25 @@
+Priya Nair
+priya.nair@example.com | +91-98765-43210 | linkedin.com/in/priyanair | github.com/priyanair
+Bengaluru, India
+
+Summary
+Senior Software Engineer with 5+ years of experience building scalable backend systems and ML pipelines. Passionate about distributed systems and data engineering.
+
+Skills
+Python, Java, Go, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, GCP, FastAPI, Django, React, Machine Learning, TensorFlow, PyTorch, Pandas, NumPy, Git, CI/CD, REST API, Agile
+
+Experience
+Senior Software Engineer
+TechCorp India
+Jan 2021 – Present
+Led backend migration to microservices architecture. Reduced latency by 40%. Managed a team of 5 engineers.
+
+Software Engineer
+DataBridge Solutions
+Jun 2019 – Dec 2020
+Built real-time data ingestion pipelines processing 10M events/day. Tech stack: Python, Kafka, PostgreSQL.
+
+Education
+B.Tech in Computer Science
+SRM Institute of Science and Technology
+2015 – 2019

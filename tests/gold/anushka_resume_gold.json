@@ -1,0 +1,46 @@
+{
+  "_comment": "Hand-labeled gold standard for sample_inputs/anushka_resume.pdf. Verified by reading the PDF directly. Used by tests/test_gold_profile.py to compare actual pipeline output against ground truth on the fields a reviewer would realistically check.",
+
+  "full_name": "Anushka Sharma",
+  "emails": ["ianushkasharma081@gmail.com"],
+  "phones": ["+919990715379"],
+
+  "education": [
+    {
+      "institution": "SRM Institute of Science and Technology, Chennai",
+      "degree": "Bachelors Of Technology in CSE",
+      "end_year": "2027"
+    }
+  ],
+
+  "experience": [
+    {
+      "company": "Vikram Sarabhai Space Centre (VSSC), ISRO",
+      "title": "Intern",
+      "start": "2025-12",
+      "end": "2026-01"
+    },
+    {
+      "company": "YSS Foundation",
+      "title": "Data Analyst Intern",
+      "start": "2025-06",
+      "end": "2025-06"
+    }
+  ],
+
+  "skills_must_include": [
+    "Python", "C++", "SQL", "Pandas", "NumPy", "Matplotlib",
+    "MySQL", "MongoDB", "Git", "FastAPI", "Streamlit", "NLP"
+  ],
+
+  "skills_must_not_include": [
+    "Leadership & Activities",
+    "Achievements",
+    "Certifications",
+    "Producting101 Hackathon",
+    "Naukri Campus",
+    "Programming Languages: Python",
+    "Ci",
+    "Cd"
+  ]
+}

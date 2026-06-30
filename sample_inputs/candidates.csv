@@ -1,0 +1,6 @@
+name,email,phone,current_company,title,linkedin,github,location,years_experience
+Priya Nair,priya.nair@example.com,+919876543210,TechCorp India,Senior Software Engineer,linkedin.com/in/priyanair,github.com/priyanair,"Bengaluru, KA, IN",5
+Arjun Mehta,arjun.mehta@example.com,9123456789,DataWave,ML Engineer,linkedin.com/in/arjunmehta,,"Mumbai, MH, IN",3
+Sara Chen,sara.chen@example.com,+14155550100,OpenAI,Research Scientist,linkedin.com/in/sarachen,github.com/sarachen,"San Francisco, CA, US",7
+,,+10000000000,BrokenCo,No Name,,,,
+ghost@example.com,ghost@example.com,,GhostCorp,Engineer,,,, 

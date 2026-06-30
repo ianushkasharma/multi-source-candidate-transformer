@@ -1,0 +1,20 @@
+{
+  "_comment": "Hand-labeled gold standard for sample_inputs/stress_test_resume_2.txt — a differently-formatted resume (no em-dash separators, comma-separated job/education lines, abbreviated degrees, parenthesized date ranges) used to stress-test the parser beyond the primary real-resume fixture.",
+
+  "full_name": "Rahul Verma",
+  "emails": ["rahul.verma99@gmail.com"],
+  "phones": ["+919123456780"],
+
+  "education": [
+    {"institution": "IIT Bombay", "degree": "M.Tech", "end_year": "2024"},
+    {"institution": "Pune University", "degree": "B.E. Computer Engineering", "end_year": "2022"}
+  ],
+
+  "experience": [
+    {"company": "Razorpay", "title": "Software Engineer II", "start": "2024-07", "end": null},
+    {"company": "Razorpay", "title": "Software Engineer I", "start": "2023-01", "end": "2024-06"}
+  ],
+
+  "skills_must_include": ["Go", "Java", "Python", "TypeScript", "AWS", "GCP", "PostgreSQL", "Redis"],
+  "skills_must_not_include": ["Certifications", "AWS Certified Solutions Architect", "Technical Skills"]
+}

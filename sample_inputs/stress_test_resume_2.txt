@@ -1,0 +1,24 @@
+RAHUL VERMA
+Pune, India | rahul.verma99@gmail.com | +91 9123456780
+linkedin.com/in/rahulverma99
+
+EDUCATION
+M.Tech, Computer Science, IIT Bombay, 2024
+B.E. Computer Engineering, Pune University, 2022
+
+WORK EXPERIENCE
+Software Engineer II, Razorpay, Bangalore (Jul 2024 - Present)
+- Built payment reconciliation services handling 2M+ transactions/day
+- Migrated legacy Java monolith to Go microservices
+
+Software Engineer I, Razorpay, Bangalore (Jan 2023 - Jun 2024)
+- Implemented fraud detection rules engine in Python
+- Reduced false positive rate by 18%
+
+TECHNICAL SKILLS
+Languages: Go, Java, Python, TypeScript
+Cloud: AWS, GCP
+Databases: PostgreSQL, Redis, Kafka
+
+CERTIFICATIONS
+AWS Certified Solutions Architect
