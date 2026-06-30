@@ -295,7 +295,7 @@ Assuming profiles are indexed by email using a hash map:
 
 ## Demo Video
 
-[Watch the walkthrough →](https://drive.google.com/file/d/1B9KsYSylwVt2rKhraCEqrE0sr1NZLysM/view?usp=sharing)
+[Watch the walkthrough](https://drive.google.com/file/d/1B9KsYSylwVt2rKhraCEqrE0sr1NZLysM/view?usp=sharing)
 
 ---
 
