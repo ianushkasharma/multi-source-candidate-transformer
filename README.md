@@ -51,7 +51,7 @@ Structured Sources (CSV)          Unstructured Sources (PDF/DOCX/TXT)
 ## Project Structure
 
 ```
-kalyx-transformer/
+multi-source-candidate-transformer/
 ├── src/
 │   ├── adapters/          ← CSVAdapter, ResumeAdapter
 │   ├── merger/            ← email-based merge, conflict resolution
@@ -84,8 +84,10 @@ Python 3.10+ recommended.
 ## Run Steps (CLI)
 
 ### 1. Clone / navigate to repo
+
 ```bash
-cd kalyx-transformer
+git clone https://github.com/<your-username>/multi-source-candidate-transformer.git
+cd multi-source-candidate-transformer
 ```
 
 ### 2. Run pipeline (default output — no config)
@@ -152,10 +154,18 @@ curl -X POST http://localhost:8000/run.json \
 ```
 
 ---
+<img width="1918" height="858" alt="image" src="https://github.com/user-attachments/assets/2b46b878-7a6e-43d2-9b8b-1f401b951fba" />
+<img width="1897" height="857" alt="image" src="https://github.com/user-attachments/assets/aa5ee329-ab64-40a6-90f5-66eae45e04ec" />
+<img width="1895" height="858" alt="image" src="https://github.com/user-attachments/assets/f818de26-7404-438d-ab67-83fec41baf06" />
+<img width="1891" height="853" alt="image" src="https://github.com/user-attachments/assets/99c05509-4f69-43a9-909d-126a3f79d674" />
+<img width="1892" height="867" alt="image" src="https://github.com/user-attachments/assets/e3a6c81c-922a-4a22-820f-0320fc1297e4" />
+<img width="1902" height="862" alt="image" src="https://github.com/user-attachments/assets/43ec2f24-5c91-436e-82a2-6b2c93d38840" />
+<img width="1892" height="863" alt="image" src="https://github.com/user-attachments/assets/b76f12b1-6fc6-4469-9c2e-98f2c89d88a5" />
+<img width="1890" height="862" alt="image" src="https://github.com/user-attachments/assets/eeac62c0-e0e8-42d5-a4dd-75d5ac49a6ea" />
 
 ## Gold-Profile Testing
 
-Beyond standard unit tests, `tests/test_gold_profile.py` runs the resume adapter end-to-end against real documents and diffs the output against hand-verified expected values — not just "does it not crash," but "is the extracted name/email/dates/degree/company actually correct."
+Beyond standard unit tests, `tests/test_gold_profile.py` runs the resume adapter end-to-end against real documents and compares the extracted profile against hand-labeled ground truth, validating extraction correctness rather than merely ensuring that parsing does not fail.
 
 Two fixtures are used specifically to stress different layouts:
 
@@ -264,11 +274,13 @@ These are flagged here deliberately rather than hidden, in line with the assignm
 
 ## Performance
 
-All steps run in linear time relative to input size:
-- Parsing: O(n) per resume/CSV row
-- Merge: O(n) across profiles
+Assuming profiles are indexed by email using a hash map:
+
+- Resume parsing: O(L), where L = resume text length
+- CSV parsing: O(n), where n = number of rows
+- Merge: O(n) expected time (hash-map lookup by email)
 - Projection: O(f) per profile, where f = number of configured fields
-- Memory: O(n) — profiles held in memory, no streaming required at reasonable scale
+- Memory: O(n) — profiles held in memory; no streaming required at the intended assignment scale
 
 ---
 
