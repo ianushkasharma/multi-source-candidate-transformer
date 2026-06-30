@@ -295,7 +295,7 @@ Assuming profiles are indexed by email using a hash map:
 
 ## Demo Video
 
-[Watch the 2-minute walkthrough →](https://your-loom-or-youtube-link-here)
+[Watch the walkthrough →]([https://your-loom-or-youtube-link-here](https://drive.google.com/file/d/1B9KsYSylwVt2rKhraCEqrE0sr1NZLysM/view?usp=sharing))
 
 Covers: end-to-end pipeline run on sample inputs, default + custom config outputs, one design decision (email as merge key) and one edge case you handled.
 
